@@ -1,0 +1,63 @@
+
+
+/* вторинний основного тексту  #212121  */
+/* основний колір тексту #757575 */
+/* колір адреси в футері #FFFFFF
+60 % */
+/* акцент #2196F3 */
+/* білий #FFFFFF */
+/* основний колір фону #F5F5F5; */
+/* вторинний колір фону #F5F4FA; */
+
+body{
+ color:#757575 ;  
+ background-color:#F5F5F5 ; 
+}
+.logo{
+    color: #2196F3;
+}
+.list{
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link{
+    color:#212121 ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+/* auth-nav */
+.auth-nav .link{
+    color:#757575 ;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color:#2196F3 ;
+}
+/* hero */
+.hero{}
+.hero-title{}
+
+/*button-main  */
+.button-main{
+    color:#FFFFFF ;
+    background: #2196F3;
+}
+/* section-title */
+.section-title{
+    color:#212121 ;
+}
+
+/* feature-list */
+.title{
+    color:#212121 ;
+}
+/* teem */
+.title{
+    color: #212121;
+}
+/* project */
+.title{
+    color: #212121;
+}
