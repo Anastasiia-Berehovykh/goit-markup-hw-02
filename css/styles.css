@@ -13,6 +13,8 @@
 body{
  color:var(--primary-text-color); 
  background-color:var(--primary-bgr); 
+ font-family:'Roboto', sans-serif,'Raleway', sans-serif;
+  
 }
 .logo-web{
     color:#2196F3;
@@ -57,12 +59,13 @@ body{
     color:var(--title-text-color);
     background-color:var(--secondary-bgr);
 }
-
-/*button-main  */
-.button-main{
+.button-nav .button.secondary:hover,
+.button-nav .button.secondary:focus{
     color:var(--white) ;
-    background:var(--accent);
+    background-color:var(--accent) ;
 }
+
+
 /* section-title */
 .section-title{
     color:var(--title-text-color) ;
@@ -80,4 +83,18 @@ body{
 /* project */
 .project .title{
     color:var(--title-text-color);
+}
+.adress .adress-link{
+    color:#FFFFFF;
+}
+.adress .adress-link:hover,
+.adress .adress-link:focus{
+    color:var(--accent) ;
+}
+.adress .adress-auth{
+    color:#FFFFFF ;
+}
+.adress .adress-auth:hover,
+.adress .adress-auth:focus{
+    color:var(--accent) ;
 }
