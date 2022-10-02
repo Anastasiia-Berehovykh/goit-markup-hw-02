@@ -88,6 +88,9 @@ color: #FFFFFF;
     color:var(--white) ;
     background-color:var(--accent) ;
 }
+.button-nav{
+    list-style-type: none;
+}
 
 
 /* section-title */
