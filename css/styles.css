@@ -26,31 +26,33 @@ body{
     color:var(--accent);
     font-family: 'Raleway';
     text-decoration: none;
-font-style: normal;
+
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 /* identical to box height */
-letter-spacing: 0.03em;
+
 }
 
 .logo-studio{
     color:var(--black);
     font-family: 'Raleway';
     text-decoration: none;
-font-style: normal;
+
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 /* identical to box height */
-letter-spacing: 0.03em;
+
 }
 
 /* site-nav */
+
+
 .site-nav .link{
     color:var(--title-text-color);
     font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -66,6 +68,7 @@ letter-spacing: 0.02em;
     color:var(--accent);
 }
 
+
 /* auth-nav */
 .auth-nav .link{
     color:var(--primary-text-color) ;
@@ -74,7 +77,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em;
+
 }
 
 
@@ -116,7 +119,7 @@ color:var(--white);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 1,88;
+line-height: 1.88;
 /* identical to box height, or 188% */
 display: flex;
 align-items: center;
@@ -132,7 +135,7 @@ cursor: pointer;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,62;
+line-height: 1.62;
 /* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
