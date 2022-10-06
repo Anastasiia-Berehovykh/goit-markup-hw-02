@@ -26,24 +26,18 @@ body{
     color:var(--accent);
     font-family: 'Raleway';
     text-decoration: none;
-
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-/* identical to box height */
-
 }
 
 .logo-studio{
     color:var(--black);
     font-family: 'Raleway';
     text-decoration: none;
-
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-/* identical to box height */
-
 }
 
 /* site-nav */
@@ -52,7 +46,6 @@ line-height: 1.19;
 .site-nav .link{
     color:var(--title-text-color);
     font-family: 'Roboto';
-
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -67,17 +60,17 @@ letter-spacing: 0.02em;
 .site-nav .link:focus{
     color:var(--accent);
 }
-
+.site-nav .link.current{
+    color: var(--accent);
+}
 
 /* auth-nav */
 .auth-nav .link{
     color:var(--primary-text-color) ;
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-
 }
 
 
@@ -95,15 +88,17 @@ line-height: 1.14;
 
 .hero-title{
     font-family: 'Roboto';
-font-style: normal;
+font-style: 400;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-/* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--white);
+}
+.list{
+    list-style: none;
 }
 
 /* button */
@@ -120,7 +115,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-/* identical to box height, or 188% */
 display: flex;
 align-items: center;
 text-align: center;
@@ -136,7 +130,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
-/* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
@@ -157,13 +150,10 @@ cursor: pointer;
 /* section-title */
 .section-title{
     color:var(--title-text-color) ;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+  font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 }
 
 .visually-hidden {
@@ -173,8 +163,7 @@ letter-spacing: 0.03em;
     margin: -1px;
     border: 0;
     padding: 0;
-    
-    white-space: nowrap;
+        white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -183,25 +172,20 @@ letter-spacing: 0.03em;
 /* feature-list */
 .feature-list .title{
     color:var(--title-text-color) ;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+
+.feature-list .text{
+  font-size: 14px;
+line-height: 1.71;
 }
 
 .feature-list{
     list-style-type: none;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
-letter-spacing: 0.03em;
-}
+   }
 
 .examples{
     list-style-type: none;
@@ -211,60 +195,45 @@ letter-spacing: 0.03em;
 .teem .title{
     color:var(--title-text-color);
     background-color:var(--secondary-bgr);
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-/* identical to box height */
 text-align: center;
-letter-spacing: 0.03em;
-}
 
+}
+.teems{
+    background-color: var(--secondary-bgr)
+}
 .teem{
     list-style-type: none;
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
-/* identical to box height */
 text-align: center;
-letter-spacing: 0.03em;
+
 }
 
 /* project */
 .project .title{
     color:var(--title-text-color);
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+    font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
-/* identical to box height, or 200% */
 letter-spacing: 0.06em;
 }
 
 .project{
     list-style-type: none;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+  font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
-/* identical to box height, or 188% */
-letter-spacing: 0.03em;
 }
 
 .adress .adress-link{
     color:var(--white);
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
-letter-spacing: 0.03em;
 }
 
 .adress .adress-link:hover,
@@ -273,14 +242,10 @@ letter-spacing: 0.03em;
 }
 
 .adress .adress-auth{
-    color:var(--white);
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+    color:var(--footer-auth);
+   font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
-letter-spacing: 0.03em;
 }
 
 .adress .adress-auth:hover,
@@ -295,46 +260,33 @@ letter-spacing: 0.03em;
 }
 .adress-auth{
     text-decoration: none;
-    font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
-letter-spacing: 0.03em;
 }
 .adress-link{
     text-decoration: none;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+  font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
-letter-spacing: 0.03em;
 }
 
 footer .logo-web{
     text-decoration: none;
     color:var(--accent) ;
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-/* identical to box height */
-letter-spacing: 0.03em;
 }
 footer .logo-studio{
     text-decoration: none;
     color:var(--white);
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-/* identical to box height */
-letter-spacing: 0.03em;
 }
 
 .footer{
